@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daily Journal</title>
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-    <header> Giovanni's Journal</header>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>Giovanni's Journal</header>
     <main id="container">
-        <h1 class=" headerText">Daily Log</h1>
-        <fieldset>
-            <label for="entryDate">Date</label>
-            <input type="date" name="entryDate" id="entryDateInput" class="entryForm_date">
+      <h1 class="headerText">Daily Log</h1>
+      <fieldset class="inputFieldset">
+        <label for="entryDate">Date</label>
+        <input
+          type="date"
+          name="entryDate"
+          id="entryDateInput"
+          class="entryForm_date"
+        />
+      </fieldset>
+      <fieldset class="inputFieldset">
+        <label for="conceptsCovered"> Concepts Covered</label>
+        <input
+          type="text"
+          name="conceptsCovered"
+          id="conceptsCoveredInput"
+          class="entryForm_conceptsCovered"
+        />
+      </fieldset>
+      <fieldset>
+          <label for="moodSelect"> Select your Moods</label>    
+          <select>
+              <option>Happy</option>
+              <option>Sad</option>
+              <option>Uneasy</option>
+              
+          </select>
         </fieldset>
-
     </main>
     <footer>Aim to learn everyday! Keep on grinding!</footer>
-</body>
+  </body>
 </html>
