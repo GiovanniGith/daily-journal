@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daily Journal</title>
     <link rel="stylesheet" href="styles/main.css" />
+    
   </head>
   <body>
     <header>Giovanni's Journal</header>
     <main>
       <h1 class="headerText">Daily Log</h1>
-      <fieldset class="inputFieldset">
+      <fieldset class="">
         <label for="entryDate">Date</label>
         <input
           type="date"
@@ -43,8 +44,10 @@
               <option>Confident</option>
           </select>
         </fieldset> </br>
+        <button type="submit">Record Journal Entry </button> </br>
+        </br> </br>
         <article id="entries"></article>
-        <button type="submit">Record Journal Entry </button> 
+        <script type="module" src="./scripts/main.js"> </script>
     </main>
 </br>
     <footer>Aim to learn everyday! Keep on grinding!</footer>
